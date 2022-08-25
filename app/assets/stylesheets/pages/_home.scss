@@ -10,15 +10,18 @@
   object-fit: contain;
   height: 0.1em;
   margin: 0px;
-}
-.levanta-zabele {
-  display: flex;
-  padding-left: 100px;
-  align-items: center;
   object-fit: contain;
+  height: 6rem; //80px
+  width: auto;
+  .levanta-zabele {
+    display: flex;
+    padding-inline-start: 2rem;
+    align-items: center;
+  }
 }
 .levanta-zabele img {
-  max-height: auto;
-  max-width: auto;
+  height: 6rem;
+  width: auto;
   object-fit: contain;
+  padding: 1rem;
 }
