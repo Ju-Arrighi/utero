@@ -8,14 +8,15 @@
 .container-1 {
   background-color: black;
   object-fit: contain;
-  height: 0.1em;
+  height: 8em;
   margin: 0px;
 }
 .levanta-zabele {
   display: flex;
-  padding-left: 100px;
   align-items: center;
-  object-fit: contain;
+  height: fit-content;
+  padding-inline: 5% 10%;
+  object-fit: cover;
 }
 .levanta-zabele img {
   max-height: auto;
