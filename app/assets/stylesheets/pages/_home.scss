@@ -1,19 +1,24 @@
 // Specific CSS for your home-page
-.levanta-zabele {
+.main-container {
   // background-color: black;
-
+  // object-fit: contain;
+  // height: 8em;
+  // margin: 0px;
+}
+.container-1 {
+  background-color: black;
+  object-fit: contain;
+  height: 0.1em;
+  margin: 0px;
+}
+.levanta-zabele {
   display: flex;
   padding-left: 100px;
   align-items: center;
-}
-
-.levanta-zabele img {
-  max-height: 100%;
-  max-width: auto;
-}
-.color-width {
-  background-color: black;
   object-fit: contain;
-  height: 8em;
-  margin: 0px;
+}
+.levanta-zabele img {
+  max-height: auto;
+  max-width: auto;
+  object-fit: contain;
 }
