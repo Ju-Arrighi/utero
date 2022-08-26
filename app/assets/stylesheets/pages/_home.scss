@@ -7,8 +7,6 @@
 }
 .container-1 {
   background-color: black;
-  object-fit: contain;
-  height: 0.1em;
   margin: 0px;
   object-fit: contain;
   height: 6rem; //80px
@@ -24,4 +22,25 @@
   width: auto;
   object-fit: contain;
   padding: 1rem;
+}
+.container-2 {
+  background-color: #0094d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8%;
+}
+.img-1 {
+  height: 30rem;
+  object-position: center;
+  padding: 5rem;
+}
+.fonts-1 {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.fonts-2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
 }
