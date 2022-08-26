@@ -25,22 +25,29 @@
 }
 .container-2 {
   background-color: #0094d9;
+  height: 36rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 8%;
+  padding: 2%;
 }
 .img-1 {
   height: 30rem;
+  width: auto;
   object-position: center;
-  padding: 5rem;
+  // padding: 5rem;
+}
+.who-are-we {
+  // padding: 8rem;
 }
 .fonts-1 {
   font-size: 2rem;
   color: white;
   font-family: 'Courier New', Courier, monospace;
+  width: 24rem;
 }
 .fonts-2 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: small;
+  font-size: medium;
+  width: 24rem;
 }
