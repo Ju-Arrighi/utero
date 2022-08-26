@@ -23,6 +23,9 @@
   object-fit: contain;
   padding: 1rem;
 }
+.banner-1 {
+  background-color: #05f41c;
+}
 .container-2 {
   background-color: #0094d9;
   height: 36rem;
@@ -50,4 +53,20 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
   width: 24rem;
+}
+.banner-2 {
+background-color: #ec1846;
+}
+.fonts-3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  width: 13rem;
+  color: white;
+}
+.container-3 {
+  background-color: #ec1846;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
 }
