@@ -49,9 +49,6 @@
 .container-2 img {
   height: 17rem;
   width: auto;
-  // height: 7rem;
-  width: auto;
-  // padding-bottom: 5rem;
   margin-bottom: 16rem;
   margin-right: 2rem;
 }
@@ -70,7 +67,19 @@
   width: 24rem;
 }
 .banner-2 {
-background-color: #ec1846;
+  background-image: url("Universo.png");
+  background-size: contain;
+  background-size: cover;
+  height: 36rem;
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-2 img {
+  height: 20rem;
+  width: auto;
 }
 .fonts-3 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -78,6 +87,11 @@ background-color: #ec1846;
   font-weight: bolder;
   width: 13rem;
   color: white;
+  margin-left: 15rem;
+}
+.fonts-3 img {
+  height: 2rem;
+  width: auto;
 }
 .container-3 {
   background-color: #ec1846;
