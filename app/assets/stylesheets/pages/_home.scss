@@ -109,4 +109,21 @@
 #yakuy {
     height: 50rem;
     width: auto;
-  }
+}
+.banner-3 {
+  background-image: url("Universo.png");
+  background-size: contain;
+  background-size: cover;
+  height: 36rem;
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.banner-3 img {
+  height: 25rem;
+  width: auto;
+  margin-right: 5rem;
+}
