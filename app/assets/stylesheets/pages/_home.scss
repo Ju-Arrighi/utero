@@ -24,7 +24,19 @@
   padding: 1rem;
 }
 .banner-1 {
-  background-color: #05f41c;
+  background-image: url("Floresta_Imagem.png");
+  background-size: contain;
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-1 img {
+  height: 20rem;
+  width: auto;
 }
 .container-2 {
   background-color: #0094d9;
@@ -34,11 +46,14 @@
   align-items: center;
   padding: 2%;
 }
-.img-1 {
-  height: 30rem;
+.container-2 img {
+  height: 17rem;
   width: auto;
-  object-position: center;
-  // padding: 5rem;
+  // height: 7rem;
+  width: auto;
+  // padding-bottom: 5rem;
+  margin-bottom: 16rem;
+  margin-right: 2rem;
 }
 .who-are-we {
   // padding: 8rem;
@@ -46,7 +61,7 @@
 .fonts-1 {
   font-size: 2rem;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia;
   width: 24rem;
 }
 .fonts-2 {
