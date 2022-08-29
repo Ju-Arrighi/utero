@@ -199,3 +199,45 @@ td #3 {
   width: auto;
   padding: 2%;
 }
+.container-5 {
+  height: 50rem;
+}
+.net {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  height: 20rem;
+  font-family: georgia;
+  padding: 5%;
+  margin-inline: 5%;
+}
+.partners {
+  display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  width: auto;
+  margin-inline: 20%;
+  margin-bottom: 5%;
+}
+.cooperate {
+  background-image: url("Fundo_Bolas.png");
+  height: 50rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 20%;
+}
+#1 {
+  background-image: url("Bola_Azul.png");
+  height: 30rem;
+  background-size: contain;
+  background-size: cover;
+}
+#2 {
+  background-image: url("Bola_Verde.png");
+  height: 30rem;
+}
+#3 {
+  background-image: url("Bola_Preta.png");
+  height: 30rem;
+}
