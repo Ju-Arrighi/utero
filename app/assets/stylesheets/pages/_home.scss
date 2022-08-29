@@ -52,9 +52,6 @@
   margin-bottom: 16rem;
   margin-right: 2rem;
 }
-.who-are-we {
-  // padding: 8rem;
-}
 .fonts-1 {
   font-size: 2rem;
   color: white;
@@ -126,4 +123,26 @@
   height: 25rem;
   width: auto;
   margin-right: 5rem;
+}
+.container-4 {
+  background-color: #67cf5b;
+  height: 50rem;
+  font-size: medium;
+  padding: 2%;
+}
+.realizamos {
+  display: flex;
+  justify-content: center;
+}
+.realizamos img {
+  width: 15rem;
+}
+.fonts-5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  width: 35rem;
+  padding: 2%;
+  #1 {
+      color: white;
+    }
 }
