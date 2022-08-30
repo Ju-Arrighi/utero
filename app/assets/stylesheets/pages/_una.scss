@@ -1,0 +1,31 @@
+// Specific CSS for your home-page
+.universo-una {
+  background-color: black;
+  height: 8rem; //80px
+  width: auto;
+  // margin: auto;
+  display: flex;
+  align-items: center;
+}
+.universo-una img {
+  height: 6rem;
+  width: auto;
+  margin-left: 3rem;
+}
+
+.banner-1 {
+  background-image: url("Floresta_Imagem.png");
+  background-size: contain;
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-1 img {
+  height: 20rem;
+  width: auto;
+}
