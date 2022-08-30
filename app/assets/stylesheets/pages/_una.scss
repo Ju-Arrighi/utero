@@ -14,17 +14,19 @@
 }
 
 .banner-1 {
-  background-image: url("Floresta_Imagem.png");
-  background-size: contain;
+  background-image: url("Floresta-Una.png");
   background-size: cover;
   height: 30rem;
   width: auto;
-  object-fit: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 7rem;
+  font-family: fantasy;
+  color: #67cf5b;
+  margin: auto;
+  padding-inline: 10rem;
 }
-
+#branco {
+  color: white;
+}
 .banner-1 img {
   height: 20rem;
   width: auto;
