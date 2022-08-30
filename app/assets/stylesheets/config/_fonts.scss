@@ -6,11 +6,11 @@ $body-font: "Work Sans", "Helvetica", "sans-serif";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-Book.eot');
+  src: font-url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+       font-url('AvenirLTStd-Book.woff') format('woff'),
+       font-url('AvenirLTStd-Book.ttf') format('truetype')
+}
+$my-font: "Avenir";
