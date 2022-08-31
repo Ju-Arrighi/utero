@@ -1,0 +1,119 @@
+// Specific CSS for your home-page
+.universo-una {
+  background-color: black;
+  height: 8rem; //80px
+  width: auto;
+  // margin: auto;
+  display: flex;
+  align-items: center;
+}
+.universo-una img {
+  height: 6rem;
+  width: auto;
+  margin-left: 3rem;
+}
+.floresta-banner {
+  background-image: url("Floresta-Una.png");
+  background-size: cover;
+  height: 30rem;
+  // margin: auto;
+  // width: 100%;
+  font-size: 7rem;
+  font-family: fantasy;
+  color: #67cf5b;
+  padding-inline: 10rem;
+  text-align: center;
+}
+.floresta-banner img {
+  height: 20rem;
+  width: auto;
+}
+#branco {
+  color: white;
+}
+.container-universo-una {
+  background-color: #67cf5b;
+  height: 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.container-universo-una img {
+  height: 17rem;
+  width: auto;
+  margin-bottom: 16rem;
+  margin-right: 2rem;
+}
+.utero-amontara-container {
+  background-color: white;
+  height: 36rem;
+  width: auto;
+  // object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utero-amontara-container img {
+  height: 26rem;
+  width: auto;
+}
+.fonts-utero-amontara {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  width: 12rem;
+  color: black;
+  margin-right: 5rem;
+}
+.local-carrosel {
+  background-color: black;
+  justify-content: center;
+  height: 36rem;
+}
+.local-carrosel img {
+  height: 36rem;
+  // width: 100%;
+
+  // margin-bottom: 2rem;
+  // margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: bottom;
+  width: 40%;
+}
+.description  {
+  height: 2rem;
+  width: auto;
+  background-color: #67cf5b;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+}
+.container-purpose {
+  margin-block: 2rem;
+}
+.purpose {
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem;
+}
+.purpose img {
+  height: 12rem;
+}
+.font-purpose {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  width: 32rem;
+  margin-left: 5rem;
+}
+.separador {
+  width: 55rem;
+  height: auto;
+  margin: auto;
+}
+.separador img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
