@@ -91,14 +91,12 @@
   text-align: center;
 }
 .container-purpose {
-}
-.container-purpose img {
-  // width: 100rem;
-
+  margin-block: 2rem;
 }
 .purpose {
   display: flex;
   justify-content: center;
+  margin-block: 2rem;
 }
 .purpose img {
   height: 12rem;
@@ -108,8 +106,14 @@
   font-size: small;
   width: 32rem;
   margin-left: 5rem;
-  // max-width: 100%;
-  // max-height: 100%;
-  // object-fit: contain;
-
+}
+.separador {
+  width: 55rem;
+  height: auto;
+  margin: auto;
+}
+.separador img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
