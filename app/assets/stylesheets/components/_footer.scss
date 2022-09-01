@@ -8,6 +8,7 @@
   width: 40rem;
   height: 50rem;
   background-size: contain;
+  margin: auto;
 }
 .blue-ball {
   background-image: url("Bola_Azul.png");
@@ -43,16 +44,23 @@
   padding-top: 4rem;
   margin-top: 10rem;
 }
-.um {
+.movimenta-zabele {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1%;
-  margin-inline: 20%;
-  // width: 14rem;
+  width: 70%;
+  margin: auto;
 }
-.um img {
+.movimenta-zabele img {
       // height: 10rem;
   width: auto;
   padding: 2%;
+}
+.icons {
+      margin-inline-start: 75%;
+}
+.icons img {
+  height: 3rem;
+    width: auto;
 }
