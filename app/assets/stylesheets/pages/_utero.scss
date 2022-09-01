@@ -1,0 +1,23 @@
+.utero {
+  background-color: black;
+  height: 8rem; //80px
+  width: auto;
+  // margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.utero img {
+  height: 6rem;
+  width: auto;
+  margin-left: 3rem;
+}
+.banner-utero {
+  background-color: black;
+}
+.banner-utero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
