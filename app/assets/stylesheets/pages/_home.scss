@@ -1,10 +1,4 @@
 // // Specific CSS for your home-page
-// .main-container {
-//   // background-color: black;
-//   // object-fit: contain;
-//   // height: 8em;
-//   // margin: 0px;
-// }
 .container-1 {
   background-color: black;
   object-fit: contain;
@@ -220,27 +214,4 @@ td #3 {
   width: auto;
   margin-inline: 20%;
   margin-bottom: 5%;
-}
-.cooperate {
-  background-image: url("Fundo_Bolas.png");
-  height: 100rem;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  margin: 20%;
-}
-#1 {
-  background-image: url("Bola_Azul.png");
-  height: 30rem;
-  // background-size: contain;
-  background-size: cover;
-  background-color: #0094d9;
-}
-#2 {
-  background-image: url("Bola_Verde.png");
-  height: 30rem;
-}
-#3 {
-  background-image: url("Bola_Preta.png");
-  height: 30rem;
 }
