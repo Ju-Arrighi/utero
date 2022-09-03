@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   width: 40rem;
-  height: 50rem;
+  height: 40rem;
   background-size: contain;
   margin: auto;
 }
@@ -51,6 +51,7 @@
   padding: 1%;
   width: 70%;
   margin: auto;
+  margin-block-end: 5%;
 }
 .movimenta-zabele img {
       // height: 10rem;
@@ -58,9 +59,10 @@
   padding: 2%;
 }
 .icons {
-      margin-inline-start: 75%;
+  margin-inline-start: 75%;
+  margin-block-start: 5%;
 }
 .icons img {
   height: 3rem;
-    width: auto;
+  width: auto;
 }
