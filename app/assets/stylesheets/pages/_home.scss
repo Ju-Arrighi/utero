@@ -1,16 +1,9 @@
 // Specific CSS for your home-page
-.main-container {
-  // background-color: black;
-  // object-fit: contain;
-  // height: 8em;
-  // margin: 0px;
-}
 .container-1 {
   background-color: black;
   object-fit: contain;
   height: 8em;
   margin: 0px;
-  font-family: Avenir;
 }
 .levanta-zabele {
   object-fit: contain;
@@ -27,4 +20,12 @@
   width: auto;
   object-fit: contain;
   padding: 1rem;
+}
+#1 {
+  font-family: fantasy;
+  font-size: xx-large;
+}
+
+.origin {
+  font-family: "Avenir";
 }
