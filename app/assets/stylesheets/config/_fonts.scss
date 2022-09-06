@@ -6,11 +6,278 @@ $body-font: "Work Sans", "Helvetica", "sans-serif";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Avenir Book";
+  src: font-url('AvenirLTStd-Book.eot');
+  src: font-url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+       font-url('AvenirLTStd-Book.woff') format('woff'),
+       font-url('AvenirLTStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+$my-font: "Avenir Book";
+
+// BookOblique;
+@font-face {
+  font-family: "Avenir Book";
+  src: font-url('AvenirLTStd-BookOblique.eot');
+  src: font-url('AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-BookOblique.woff') format('woff'),
+    font-url('AvenirLTStd-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+// Light;
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-Light.eot');
+  src: font-url('AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-Light.woff') format('woff'),
+    font-url('AvenirLTStd-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+// Oblique;
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-Oblique.eot');
+  src: font-url('AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-Oblique.woff') format('woff'),
+    font-url('AvenirLTStd-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+// LightOblique;
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-LightOblique.eot');
+  src: font-url('AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-LightOblique.woff') format('woff'),
+    font-url('AvenirLTStd-LightOblique.ttf') format('truetype');
+  font-weight: light;
+  font-style: oblique;
+}
+// LightMedium;
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-Medium.eot');
+  src: font-url('AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-Medium.woff') format('woff'),
+    font-url('AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+// MediumOblique;
+@font-face {
+  font-family: "Avenir";
+  src: font-url('AvenirLTStd-MediumOblique.eot');
+  src: font-url('AvenirLTStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-MediumOblique.woff') format('woff'),
+    font-url('AvenirLTStd-MediumOblique.ttf') format('truetype');
+  font-weight: medium;
+  font-style: oblique;
+}
+
+// ProBold;
+@font-face {
+  font-family: "Avenir Pro";
+  src: font-url('AvenirNextLTPro-Bold.eot');
+  src: font-url('AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Bold.woff') format('woff'),
+    font-url('AvenirNextLTPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+$my-font: "Avenir Pro";
+
+// ProItalic;
+@font-face {
+  font-family: "Avenir Pro";
+  src: font-url('AvenirNextLTPro-It.eot');
+  src: font-url('AvenirNextLTPro-It.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-It.woff') format('woff'),
+    font-url('AvenirNextLTPro-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+$my-font: "Avenir Pro";
+
+// ProMediumCn;
+@font-face {
+  font-family: "Avenir Pro MediumCn";
+  src: font-url('AvenirNextLTPro-MediumCn.eot');
+  src: font-url('AvenirNextLTPro-MediumCn.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-MediumCn.woff') format('woff'),
+    font-url('AvenirNextLTPro-MediumCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Pro MediumCn";
+
+// ProMediumCnIt;
+@font-face {
+  font-family: "Avenir Pro MediumCnIn";
+  src: font-url('AvenirNextLTPro-MediumCnIt.eot');
+  src: font-url('AvenirNextLTPro-MediumCnIt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-MediumCnIt.woff') format('woff'),
+    font-url('AvenirNextLTPro-MediumCnIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+$my-font: "Avenir Pro MediumCnIt";
+}
+
+// ProUltLtCn;
+@font-face {
+  font-family: "Avenir UltLtCn";
+  src: font-url('AvenirNextLTPro-UltLtCn.eot');
+  src: font-url('AvenirNextLTPro-UltLtCn.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-UltLtCn.woff') format('woff'),
+    font-url('AvenirNextLTPro-UltLtCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir UltLtCn";
+
+// ProUltLtCnIt;
+@font-face {
+  font-family: "Avenir UltLtCn";
+  src: font-url('AvenirNextLTPro-UltLtCnIt.eot');
+  src: font-url('AvenirNextLTPro-UltLtCnIt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-UltLtCnIt.woff') format('woff'),
+    font-url('AvenirNextLTPro-UltLtCnIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+$my-font: "Avenir UltLtCn";
+
+// ProCnlt;
+@font-face {
+  font-family: "Avenir Cnlt";
+  src: font-url('AvenirNextLTPro-BoldCnlt.eot');
+  src: font-url('AvenirNextLTPro-BoldCnlt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-BoldCnlt.woff') format('woff'),
+    font-url('AvenirNextLTPro-BoldCnlt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+$my-font: "Avenir Cnlt";
+
+// ProCnlt;
+@font-face {
+  font-family: "Avenir Cnlt";
+  src: font-url('AvenirNextLTPro-Cnlt.eot');
+  src: font-url('AvenirNextLTPro-Cnlt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Cnlt.woff') format('woff'),
+    font-url('AvenirNextLTPro-Cnlt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Cnlt";
+
+// Demi;
+@font-face {
+  font-family: "Avenir Demi";
+  src: font-url('AvenirNextLTPro-Demi.eot');
+  src: font-url('AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Demi.woff') format('woff'),
+    font-url('AvenirNextLTPro-Demi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Demi";
+
+// DemiCnlt;
+@font-face {
+  font-family: "Avenir DemiCnlt";
+  src: font-url('AvenirNextLTPro-DemiCnlt.eot');
+  src: font-url('AvenirNextLTPro-DemiCnlt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-DemiCnlt.woff') format('woff'),
+    font-url('AvenirNextLTPro-DemiCnlt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir DemiCnlt";
+
+// Demilt;
+@font-face {
+  font-family: "Avenir Demilt";
+  src: font-url('AvenirNextLTPro-Demilt.eot');
+  src: font-url('AvenirNextLTPro-Demilt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Demilt.woff') format('woff'),
+    font-url('AvenirNextLTPro-Demilt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Demilt";
+
+// ProHeavy;
+@font-face {
+  font-family: "Avenir HeavyCn";
+  src: font-url('AvenirNextLTPro-HeavyCn.eot');
+  src: font-url('AvenirNextLTPro-HeavyCn.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-HeavyCn.woff') format('woff'),
+    font-url('AvenirNextLTPro-HeavyCn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir HeavyCn";
+
+// ProHeavyCnlt;
+@font-face {
+  font-family: "Avenir HeavyCnlt";
+  src: font-url('AvenirNextLTPro-HeavyCnlt.eot');
+  src: font-url('AvenirNextLTPro-HeavyCnlt.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-HeavyCnlt.woff') format('woff'),
+    font-url('AvenirNextLTPro-HeavyCnlt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir HeavyCnlt";
+
+// ProRegular;
+@font-face {
+  font-family: "Avenir Regular";
+  src: font-url('AvenirNextLTPro-Regular.eot');
+  src: font-url('AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Regular.woff') format('woff'),
+    font-url('AvenirNextLTPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Regular";
+
+//Roman
+@font-face {
+  font-family: "Avenir Roman";
+  src: font-url('AvenirLTStd-Roman.eot');
+  src: font-url('AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirLTStd-Roman.woff') format('woff'),
+    font-url('AvenirLTStd-Roman.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+$my-font: "Avenir Roman";
+
+//ProCnBold
+@font-face {
+  font-family: "Avenir Pro Cn";
+  src: font-url('AvenirNextLTPro-BoldCn.eot');
+  src: font-url('AvenirNextLTPro-BoldCn.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-BoldCn.woff') format('woff'),
+    font-url('AvenirNextLTPro-BoldCn.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+$my-font: "Avenir Pro Cn";
+
+//ProCn
+@font-face {
+  font-family: "Avenir Pro Cn";
+  src: font-url('AvenirNextLTPro-Cn.eot');
+  src: font-url('AvenirNextLTPro-Cn.eot?#iefix') format('embedded-opentype'),
+    font-url('AvenirNextLTPro-Cn.woff') format('woff'),
+    font-url('AvenirNextLTPro-Cn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+$my-font: "Avenir Pro Cn";
