@@ -1,0 +1,109 @@
+.utero {
+  background-color: black;
+  height: 8rem; //80px
+  width: auto;
+  // margin: auto;
+  display: flex;
+  align-items: center;
+}
+.utero img {
+  height: 6rem;
+  width: auto;
+  margin-left: 3rem;
+}
+.banner-utero {
+  background-color: black;
+}
+.banner-utero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.utero-principios {
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem;
+}
+.utero-principios img {
+  height: 12rem;
+}
+#font-red-big {
+  color:#ec1846;
+  font-family: Georgia;
+  font-size: large;
+  font-weight: bold;
+}
+.decolonizacao {
+  background-image: url('Decolonizacao_Fundo.jpg');
+  background-size: contain;
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+}
+.decolonizacao img {
+  width: 30%;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-bottom: 3%;
+}
+#decolonizacao {
+  color: white;
+  font-size: medium;
+  padding-left: 35%;
+  padding-right: 20%;
+}
+.decolonizacao-vermelho {
+  background-color: #ec1846;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  padding-block: 5%;
+  padding-inline: 15%;
+}
+.decolonizacao-vermelho img {
+  width: 12rem;
+  height: auto;
+  padding-block-end: 14%;
+}
+.font-deco {
+  padding-left: 5%;
+}
+.troca-saberes {
+  background-image: url('TrocaSaberes_Fundo.jpg');
+  background-size: contain;
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+}
+
+.troca-saberes img {
+  width: 30%;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-bottom: 3%;
+}
+#azul {
+  background-color: #0094d9;
+}
+.mae-terra {
+  background-image: url('RetornoMaeTerra_Fundo.jpg');
+  background-size: contain;
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+}
+
+.mae-terra img {
+  width: 30%;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 30%;
+  // margin-bottom: 3%;
+}
+
+#verde {
+  background-color: #67cf5b;
+}
