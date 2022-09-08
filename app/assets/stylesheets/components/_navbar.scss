@@ -11,3 +11,9 @@
   width: 40px;
   padding-inline-start: 0.5rem;
 }
+.indicator {
+display: none;
+}
+.navbar .navbar-expand-sm .navbar-light .navbar-lewagon:hover + .indicator {
+  display: block;
+}
