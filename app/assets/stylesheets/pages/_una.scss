@@ -18,18 +18,25 @@
   height: 30rem;
   // margin: auto;
   // width: 100%;
-  font-size: 7rem;
-  font-family: fantasy;
-  color: #67cf5b;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
   padding-inline: 10rem;
   text-align: center;
+  padding-top: 10%;
 }
 .floresta-banner img {
   height: 20rem;
   width: auto;
 }
-#branco {
-  color: white;
+#escola {
+  margin-bottom: -3rem;
+}
+#vida {
+  color: #67cf5b;
+  font-size: 7rem;
+  font-weight: bold;
 }
 .container-universo-una {
   background-color: #67cf5b;
@@ -116,4 +123,8 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('AvenirNextLTPro-Bold.otf');
 }
