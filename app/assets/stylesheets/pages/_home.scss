@@ -1,23 +1,18 @@
 // Specific CSS for your home-page
-.container-1 {
-  background-color: black;
-  object-fit: contain;
-  height: 8em;
+.main-container {
+  margin-bottom: 15%;
 }
 .levanta-zabele {
-  height: 6rem; //80px
+  background-color: black;
+  height: 8rem; //80px
   width: auto;
-  .levanta-zabele {
-    display: flex;
-    padding-inline-start: 2rem;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
 }
 .levanta-zabele img {
   height: 6rem;
   width: auto;
-  object-fit: contain;
-  padding: 1rem;
+  margin-left: 2rem
 }
 .banner-1 {
   background-image: url("Floresta_Imagem.png");
