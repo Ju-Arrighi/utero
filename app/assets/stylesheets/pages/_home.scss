@@ -31,11 +31,11 @@
 }
 .container-2 {
   background-color: #0094d9;
-  height: 40rem;
+  height: 45rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 .container-2 img {
   height: 17rem;
@@ -54,7 +54,7 @@
   font-weight: bolder;
 }
 .fonts-2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
   font-size: medium;
   width: 28rem;
 }
@@ -70,7 +70,7 @@
   align-items: center;
 }
 .banner-2 img {
-  height: 20rem;
+  height: 15rem;
   width: auto;
 }
 .fonts-3 {
@@ -89,18 +89,29 @@
   background-color: #ec1846;
   display: flex;
   justify-content: center;
-  height: 36rem;
+  height: 40rem;
   font-size: medium;
+      padding-left: 10%;
 }
 .container-3 img {
-  height: 12rem;
+  height: 14rem;
   width: auto;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  padding-bottom: 8%;
+  // margin-bottom: 2rem;
+  // margin-top: 1rem;
 }
-#yakuy {
-    height: 50rem;
-    width: auto;
+.yakuy {
+  font-family: Georgia, serif;
+    font-size: medium;
+    width: 28rem;
+    padding-top: 5%;
+    padding-right: 3%;
+}
+#yakuy-pic {
+  height: 40rem;
+  width: 30rem;
+  background-size: contain;
+  background-image: url("Yakuy_Foto.png");
 }
 .banner-3 {
   background-image: url("Universo.png");
