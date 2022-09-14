@@ -141,12 +141,13 @@
   justify-content: center;
 }
 .realizamos img {
-  width: 14rem;
+      width: auto;
+        height: 12rem;
 }
 .fonts-5 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Geogia', serif;
   font-size: medium;
-  width: 35rem;
+  width: 41rem;
   padding: 2%;
 }
 .table-projects {
@@ -213,11 +214,10 @@ td #3 {
   justify-content: center;
   align-items: center;
   height: 20rem;
-  font-family: georgia;
-  // padding: 5%;
+  font-family: Georgia, serif;
   margin-inline: 12%;
-      padding: 6%;
-      margin-right: 25%;
+  padding: 6%;
+  margin-right: 25%;
 }
 .net img {
 
