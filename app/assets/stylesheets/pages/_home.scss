@@ -74,7 +74,7 @@
   width: auto;
 }
 .fonts-3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
   font-size: 1.1rem;
   font-weight: bolder;
   width: 15rem;
@@ -211,11 +211,19 @@ td #3 {
 .net {
   display: flex;
   justify-content: center;
-  // align-items: center;
+  align-items: center;
   height: 20rem;
   font-family: georgia;
-  padding: 5%;
-  margin-inline: 5%;
+  // padding: 5%;
+  margin-inline: 12%;
+      padding: 6%;
+      margin-right: 25%;
+}
+.net img {
+
+  height: 12rem;
+    width: auto;
+    padding-right: 10%;
 }
 .partners {
   display: flex;
