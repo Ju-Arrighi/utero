@@ -1,23 +1,18 @@
 // Specific CSS for your home-page
-.container-1 {
-  background-color: black;
-  object-fit: contain;
-  height: 8em;
+.main-container {
+  margin-bottom: 15%;
 }
 .levanta-zabele {
-  height: 6rem; //80px
+  background-color: black;
+  height: 8rem; //80px
   width: auto;
-  .levanta-zabele {
-    display: flex;
-    padding-inline-start: 2rem;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
 }
 .levanta-zabele img {
   height: 6rem;
   width: auto;
-  object-fit: contain;
-  padding: 1rem;
+  margin-left: 2rem
 }
 .banner-1 {
   background-image: url("Floresta_Imagem.png");
@@ -36,11 +31,11 @@
 }
 .container-2 {
   background-color: #0094d9;
-  height: 36rem;
+  height: 45rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding-bottom: 8%;
 }
 .container-2 img {
   height: 17rem;
@@ -48,16 +43,20 @@
   margin-bottom: 16rem;
   margin-right: 2rem;
 }
+.who-are-we {
+  margin-top: 8rem;
+}
 .fonts-1 {
-  font-size: 2rem;
+  width: 28rem;
   color: white;
   font-family: Georgia;
-  width: 24rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
 }
 .fonts-2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
   font-size: medium;
-  width: 24rem;
+  width: 28rem;
 }
 .banner-2 {
   background-image: url("Universo.png");
@@ -71,14 +70,14 @@
   align-items: center;
 }
 .banner-2 img {
-  height: 20rem;
+  height: 15rem;
   width: auto;
 }
 .fonts-3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: larger;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
   font-weight: bolder;
-  width: 13rem;
+  width: 15rem;
   color: white;
   margin-left: 15rem;
 }
@@ -90,18 +89,29 @@
   background-color: #ec1846;
   display: flex;
   justify-content: center;
-  height: 36rem;
+  height: 40rem;
   font-size: medium;
+      padding-left: 10%;
 }
 .container-3 img {
-  height: 12rem;
+  height: 14rem;
   width: auto;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  padding-bottom: 8%;
+  // margin-bottom: 2rem;
+  // margin-top: 1rem;
 }
-#yakuy {
-    height: 50rem;
-    width: auto;
+.yakuy {
+  font-family: Georgia, serif;
+    font-size: medium;
+    width: 28rem;
+    padding-top: 5%;
+    padding-right: 3%;
+}
+#yakuy-pic {
+  height: 40rem;
+  width: 30rem;
+  background-size: contain;
+  background-image: url("Yakuy_Foto.png");
 }
 .banner-3 {
   background-image: url("Universo.png");
@@ -131,12 +141,13 @@
   justify-content: center;
 }
 .realizamos img {
-  width: 14rem;
+      width: auto;
+        height: 12rem;
 }
 .fonts-5 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Geogia', serif;
   font-size: medium;
-  width: 35rem;
+  width: 41rem;
   padding: 2%;
 }
 .table-projects {
@@ -201,11 +212,18 @@ td #3 {
 .net {
   display: flex;
   justify-content: center;
-  // align-items: center;
+  align-items: center;
   height: 20rem;
-  font-family: georgia;
-  padding: 5%;
-  margin-inline: 5%;
+  font-family: Georgia, serif;
+  margin-inline: 12%;
+  padding: 6%;
+  margin-right: 25%;
+}
+.net img {
+
+  height: 12rem;
+    width: auto;
+    padding-right: 10%;
 }
 .partners {
   display: flex;
