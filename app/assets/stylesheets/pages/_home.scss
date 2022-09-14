@@ -31,11 +31,11 @@
 }
 .container-2 {
   background-color: #0094d9;
-  height: 36rem;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding-bottom: 5%;
 }
 .container-2 img {
   height: 17rem;
@@ -43,16 +43,20 @@
   margin-bottom: 16rem;
   margin-right: 2rem;
 }
+.who-are-we {
+  margin-top: 8rem;
+}
 .fonts-1 {
-  font-size: 2rem;
+  width: 28rem;
   color: white;
   font-family: Georgia;
-  width: 24rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
 }
 .fonts-2 {
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
-  width: 24rem;
+  width: 28rem;
 }
 .banner-2 {
   background-image: url("Universo.png");
