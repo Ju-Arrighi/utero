@@ -1,25 +1,27 @@
 .footer {
-  margin-top: 20%;
+  margin-top: 5%;
 }
 .balls {
   background-image: url("Fundo_Bolas.png");
   display: flex;
   justify-content: center;
-  width: 40rem;
+      align-items: center;
+  width: 45rem;
   height: 40rem;
   background-size: contain;
   margin: auto;
+  text-align: left;
 }
 .blue-ball {
   background-image: url("Bola_Azul.png");
-  background-size: contain;
+  // background-size: contain;
   background-size: cover;
-  height: 15rem;
-  width: 15rem;
+  height: 22rem;
+  width: 22rem;
   font-size: small;
-  text-align: center;
-  padding: 2rem;
-  margin: 2rem;
+  // text-align: left;
+  padding: 5rem;
+  // margin: 2rem;
 }
 .green-ball {
   background-image: url("Bola_Verde.png");
@@ -28,8 +30,8 @@
   height: 15rem;
   width: 15rem;
   font-size: small;
-  text-align: center;
-  padding: 2rem;
+  // text-align: center;
+  padding: 4rem;
   margin: 2rem;
 }
 .black-ball {
@@ -40,23 +42,32 @@
   width: 15rem;
   color: #67cf5b;
   font-size: small;
-  text-align: center;
-  padding-top: 4rem;
-  margin-top: 10rem;
+  // text-align: center;
+  // padding-top: 4rem;
+  // margin-top: 10rem;
+  // padding: 2.5rem;
+  padding-right: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 3.5rem;
 }
 .movimenta-zabele {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1%;
-  width: 70%;
+  // padding: 1%;
+      padding-right: 10rem;
+  width: 60%;
   margin: auto;
   margin-block-end: 5%;
+  font-family: Georgia, serif;
 }
 .movimenta-zabele img {
       // height: 10rem;
   width: auto;
   padding: 2%;
+}
+.por-dentro {
+  padding-left: 2%;
 }
 .icons {
   margin-inline-start: 75%;
@@ -65,4 +76,17 @@
 .icons img {
   height: 3rem;
   width: auto;
+}
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('AvenirLTStd-Medium.otf');
+}
+#font-1-ball {
+      font-family: 'AvenirLTStd-Medium';
+      font-weight: bold;
+}
+#font-2-ball {
+  font-family: Georgia, serif;
+  font-size: small;
+
 }
