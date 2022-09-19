@@ -8,7 +8,6 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "5.4.3",
     "babel-loader": "^8.2.5",
     "bootstrap": "^5.2.1",
     "file-loader": "^6.2.0",
@@ -31,8 +30,7 @@
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^3"
+    "webpack-cli": "^4.10.0"
   },
   "description": "![UTERO_ZABELE_Universo_01](https://user-images.githubusercontent.com/85900332/145066134-5069c8b3-957d-4aef-83ee-1451e91f7f42.jpg)",
   "main": "babel.config.js",

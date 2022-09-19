@@ -1,5 +1,7 @@
 const path    = require("path")
 const webpack = require("webpack")
+// Make the following changes in webpack.config.js
+  const mode = process.env.NODE_ENV === 'development' ? 'development' : 'production';
 
 module.exports = {
   module: {
@@ -10,9 +12,11 @@ module.exports = {
           use: ['babel-loader'],
          },
     ],
-},
-  mode: "production",
-  devtool: "source-map",
+  },
+  mode,
+    optimization: {
+    moduleIds: 'hashed',
+  },
   entry: {
     application: "./app/javascript/application.js"
   },
