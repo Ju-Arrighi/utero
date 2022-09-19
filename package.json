@@ -2,16 +2,22 @@
   "name": "utero",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
     "@popperjs/core": "^2.11.6",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.3",
+    "babel-loader": "^8.2.5",
     "bootstrap": "^5.2.1",
+    "file-loader": "^6.2.0",
     "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.6.1",
     "node-sass": "^7.0.3",
     "popper.js": "^1.16.1",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpack-remove-empty-scripts": "^1.0.0"
   },
   "version": "0.1.0",
   "engines": {
@@ -24,8 +30,8 @@
     "sass": "^1.54.9",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^3"
   },
   "description": "![UTERO_ZABELE_Universo_01](https://user-images.githubusercontent.com/85900332/145066134-5069c8b3-957d-4aef-83ee-1451e91f7f42.jpg)",
@@ -36,7 +42,13 @@
   },
   "scripts": {
     "start": "webpack serve --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./config/webpack/webpack.config.js"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "repository": {
     "type": "git",
