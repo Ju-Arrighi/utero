@@ -10,7 +10,12 @@ module.exports = {
           test: /\.(js)$/,
           exclude: /node_modules/,
           use: ['babel-loader'],
-         },
+        },
+         // in webpack.config.js, add
+        {
+          test: /\.(png|jpe?g|gif|eot|woff2|woff|ttf|svg)$/i,
+          use: 'file-loader',
+        },
     ],
   },
   mode,
@@ -31,17 +36,6 @@ module.exports = {
     })
   ]
 }
-// in webpack.config.js, add
-module.exports = {
-  module: {
-    rules: [
-        {
-          test: /\.(png|jpe?g|gif|eot|woff2|woff|ttf|svg)$/i,
-          use: 'file-loader',
-         },
-    ],
-  },
-};
 // Extracts CSS into .css file
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // Removes exported JavaScript files from CSS-only entries
