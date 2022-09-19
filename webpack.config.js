@@ -10,5 +10,12 @@ module.exports = {
     static: path.resolve(__dirname, 'dist'),
     port: 8080,
     hot: true
+  },
+  devServer: {
+    static: {
+      staticOptions: {
+        redirect: true,
+      },
+    },
   }
 }
