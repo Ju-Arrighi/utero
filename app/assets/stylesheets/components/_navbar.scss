@@ -1,5 +1,6 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  // display:flex;
+  // justify-content: space-between;
   background: rgb(255, 255, 255);
 }
 
@@ -16,4 +17,8 @@ display: none;
 }
 .navbar .navbar-expand-sm .navbar-light .navbar-lewagon:hover + .indicator {
   display: block;
+}
+.blocos {
+  display: flex;
+  justify-content: space-around;
 }
