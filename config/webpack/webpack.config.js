@@ -43,14 +43,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemoveEmptyScriptsPlugin = require('webpack-remove-empty-scripts');
 
 module.exports = {
-  entry: {
-    // add your css or sass entries
-    application: [
-      './app/assets/javascripts/application.js',
-      './app/assets/stylesheets/application.scss',
-    ],
-    custom: './app/assets/stylesheets/custom.scss',
-  },
+  // entry: {
+  //   // add your css or sass entries
+  //   application: [
+  //     './app/assets/javascripts/application.js',
+  //     './app/assets/stylesheets/application.scss',
+  //   ],
+  //   custom: './app/assets/stylesheets/custom.scss',
+  // },
   module: {
     rules: [
       // Add CSS/SASS/SCSS rule with loaders
@@ -63,6 +63,10 @@ module.exports = {
   resolve: {
     // Add additional file types
     extensions: ['.js', '.jsx', '.scss', '.css'],
+    alias: {
+      'src': false,
+      './src': false,
+    },
   },
   plugins: [
     // Include plugins
