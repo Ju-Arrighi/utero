@@ -39,17 +39,24 @@
 }
 .container-universo-una {
   background-color: #67cf5b;
-  height: 36rem;
+  height: 44rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
 }
 .container-universo-una img {
-  height: 17rem;
+  height: 27rem;
   width: auto;
-  margin-bottom: 16rem;
+  margin-bottom: 12rem;
   margin-right: 2rem;
+}
+.fonts-una-green {
+  width: 28rem;
+  color: white;
+  font-family: Georgia;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 .utero-amontara-container {
   background-color: white;
