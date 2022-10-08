@@ -24,14 +24,20 @@
   display: flex;
   justify-content: center;
   margin-block: 2rem;
+  margin-inline: 16%;
 }
 .utero-principios img {
   height: 14rem;
 }
+.font-principios {
+  font-family: Georgia;
+  padding-left: 5%;
+    padding-top: 6%;
+}
 #font-red-big {
   color:#ec1846;
   font-family: Georgia;
-  font-size: large;
+  font-size: 1rem;
   font-weight: bold;
 }
 .decolonizacao {
