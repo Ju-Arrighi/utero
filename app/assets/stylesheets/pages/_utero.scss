@@ -65,18 +65,20 @@
 .decolonizacao-vermelho {
   background-color: #ec1846;
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia;
   font-size: medium;
-  padding-block: 5%;
-  padding-inline: 15%;
+  padding-block: 2rem;
+  padding-inline: 17%;
 }
 .decolonizacao-vermelho img {
-  width: 12rem;
-  height: auto;
-  padding-block-end: 14%;
+  width: auto;
+  height: 18rem;
+  padding-top: 5%;
 }
 .font-deco {
   padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .troca-saberes {
   background-image: url('TrocaSaberes_Fundo.jpg');
