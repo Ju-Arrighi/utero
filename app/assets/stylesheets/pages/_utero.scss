@@ -2,9 +2,9 @@
   background-color: black;
   height: 8rem; //80px
   width: auto;
-  // margin: auto;
   display: flex;
   align-items: center;
+  padding-left: 10%
 }
 .utero img {
   height: 6rem;
@@ -24,14 +24,21 @@
   display: flex;
   justify-content: center;
   margin-block: 2rem;
+  margin-inline: 16%;
 }
 .utero-principios img {
-  height: 12rem;
+  height: 14rem;
+}
+.font-principios {
+  font-family: Georgia;
+  padding-left: 5%;
+  padding-top: 6%;
+  margin-right: 6%;
 }
 #font-red-big {
   color:#ec1846;
   font-family: Georgia;
-  font-size: large;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .decolonizacao {
@@ -51,24 +58,29 @@
 #decolonizacao {
   color: white;
   font-size: medium;
-  padding-left: 35%;
-  padding-right: 20%;
+  padding-left: 42%;
+  padding-right: 28%;
+  font-family: Georgia;
 }
 .decolonizacao-vermelho {
   background-color: #ec1846;
   display: flex;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia;
   font-size: medium;
-  padding-block: 5%;
-  padding-inline: 15%;
+  padding-block: 2rem;
+  padding-inline: 17%;
 }
 .decolonizacao-vermelho img {
-  width: 12rem;
-  height: auto;
-  padding-block-end: 14%;
+  width: auto;
+  height: 18rem;
+  padding-top: 5%;
 }
 .font-deco {
   padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  font-size: 1rem;
 }
 .troca-saberes {
   background-image: url('TrocaSaberes_Fundo.jpg');
@@ -95,7 +107,6 @@
   height: 35rem;
   width: auto;
 }
-
 .mae-terra img {
   width: 30%;
   margin: auto;
@@ -103,7 +114,9 @@
   margin-left: 30%;
   // margin-bottom: 3%;
 }
-
+#decolonizacao {
+padding-top: 2rem;
+}
 #verde {
   background-color: #67cf5b;
 }

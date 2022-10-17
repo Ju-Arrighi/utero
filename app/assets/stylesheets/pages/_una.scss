@@ -15,10 +15,8 @@
   background-image: url("Floresta-Una.png");
   background-size: cover;
   height: 30rem;
-  // margin: auto;
-  // width: 100%;
-  font-size: 2rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.7rem;
+  font-family: Georgia;
   font-weight: bold;
   color: white;
   padding-inline: 10rem;
@@ -34,26 +32,36 @@
 }
 #vida {
   color: #67cf5b;
-  font-size: 7rem;
+  font-size: 10rem;
   font-weight: bold;
 }
 .container-universo-una {
   background-color: #67cf5b;
-  height: 36rem;
+  height: 44rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
 }
 .container-universo-una img {
-  height: 17rem;
+  height: 20rem;
   width: auto;
-  margin-bottom: 16rem;
+  margin-bottom: 12rem;
   margin-right: 2rem;
+}
+.fonts-una-green {
+  width: 28rem;
+  color: white;
+  font-family: Georgia;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.universo-autonomo {
+  margin-top: 1rem;
 }
 .utero-amontara-container {
   background-color: white;
-  height: 36rem;
+  height: 38rem;
   width: auto;
   // object-fit: contain;
   display: flex;
@@ -67,9 +75,9 @@
 .fonts-utero-amontara {
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
-  width: 12rem;
+  width: 10rem;
   color: black;
-  margin-right: 5rem;
+  margin-right: 9rem;
 }
 .local-carrosel {
   background-color: black;
@@ -78,10 +86,6 @@
 }
 .local-carrosel img {
   height: 36rem;
-  // width: 100%;
-
-  // margin-bottom: 2rem;
-  // margin-top: 1rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
