@@ -7,4 +7,14 @@ class PagesController < ApplicationController
 
   def utero
   end
+
+  # @test = request.path
+  # def picto ()
+  #   case @test
+  #   when "/"
+  #     puts "Levanta-Zabele_Logo-Picto.png"
+  #   when "/utero"
+  #     puts "Levanta-Zabele_Logo-Picto.png"
+  #   end
+  # end
 end
