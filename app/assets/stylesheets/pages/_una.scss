@@ -79,13 +79,20 @@
   color: black;
   margin-right: 9rem;
 }
+.local {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .local-carrosel {
   background-color: black;
   justify-content: center;
   height: 36rem;
 }
 .local-carrosel img {
-  height: 36rem;
+  // width: 10rem;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -94,13 +101,14 @@
 }
 #carouselExampleCaptions {
   height: 36rem;
-  width: 100%;
+  width: 50%;
+
 }
 .description  {
   height: 2rem;
   width: auto;
   background-color: #67cf5b;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia;
   font-size: small;
   text-align: center;
 }
