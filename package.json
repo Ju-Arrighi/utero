@@ -20,7 +20,7 @@
   },
   "version": "0.1.0",
   "engines": {
-    "node": "16.x.x",
+    "node": "18.x.x",
     "npm": "8.x"
   },
   "devDependencies": {
