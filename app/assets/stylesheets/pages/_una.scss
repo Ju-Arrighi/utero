@@ -80,29 +80,28 @@
   margin-right: 9rem;
 }
 .local {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  // object-fit: contain;
 }
 .local-carrosel {
   background-color: black;
+  display: flex;
   justify-content: center;
-  height: 36rem;
+  height: 35rem;
 }
 .local-carrosel img {
-  // width: 10rem;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: bottom;
-  width: 40%;
+  object-fit: contain;
+  height: 35rem;
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  // margin-top: bottom;
+  // width: 50%;
 }
 #carouselExampleCaptions {
-  height: 36rem;
-  width: 50%;
-
+  font-family: Georgia;
 }
 .description  {
   height: 2rem;
