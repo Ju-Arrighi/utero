@@ -31,7 +31,15 @@
     </div>
   </div>
   <div class="icons">
+    <%# <%= image_tag picto() %>
+    <% case root_path %>
+    <% when root_path %>
     <%= image_tag "Levanta-Zabele_Logo-Picto.png" %>
+    <% when utero_path %>
+    <%= image_tag "Utero_Logo-Picto.png" %>
+    <% when "una"  %>
+    <%= image_tag "Universo-Una_Logo-Picto.png" %>
+    <% end %>
     <%= image_tag "Indicador-link-responsivo.png" %>
   </div>
 </div>
